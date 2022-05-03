@@ -1,6 +1,5 @@
-import { BrowserRouter, Routes } from "react-router-dom";
-import { Route, Switch, Link } from "react-router-dom";
 import React from 'react';
+import { Route, Switch, Link } from "react-router-dom";
 import Check from "./Components/Check/check";
 import Exam from "./Components/Exam/exam";
 import Ept from "./Components/Ept/ept";
