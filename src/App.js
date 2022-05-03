@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Route, Switch, Link } from "react-router-dom";
 import React from 'react';
 import Check from "./Components/Check/check";
 import Exam from "./Components/Exam/exam";
@@ -7,15 +8,23 @@ import Settings from "./Components/Settings/settings";
 import Dashboard from "./Components/Dashboard/dashboard";
 function App() {
   return (
-    <BrowserRouter>
-   <Routes>
-     <Route path="/vigatest" element={<Ept />}/>
-     <Route path="/vigatest/exam" element={<Exam />}/>
-     <Route path="/vigatest/dashboard" element={<Dashboard />}/>
-     <Route path="/vigatest/check" element={<Check />}/>
-     <Route path="/vigatest/settings" element={<Settings />}/>
-     </Routes>
- </BrowserRouter>
+    <Switch>
+    <Route exact path="/">
+    <Ept /> 
+    </Route>
+    <Route path="/bashboard">
+    <Dashboard />
+    </Route>
+    <Route path="/check">
+    <Check />
+    </Route>
+    <Route path="/exam">
+    <Exam />
+    </Route>
+    <Route path="/settings">
+    <Settings />
+    </Route>
+   </Switch>
   );
 }
 export default  App;
