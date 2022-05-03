@@ -1,6 +1,8 @@
 import { Outlet, Link } from "react-router-dom";
+import React, { useState } from "react";
 import liveimg from './../../assets/images/1.png'
 function Settings() {
+    const [checked, setChecked] = useState(false);
     return (
     <> 
 <section className="page-3">
@@ -42,7 +44,8 @@ function Settings() {
         </div>
         <div className="col-4 text-end "> 
               <label className="switch">
-                <input type="checkbox" checked/>
+                <input type="checkbox" 
+        onChange={(e) => setChecked(e.target.checked)}/>
                 <span className="slider round"></span>
               </label>
         </div>
@@ -65,7 +68,8 @@ function Settings() {
         </div>
         <div className="col-4 text-end"> 
               <label className="switch">
-                <input type="checkbox" checked/>
+                <input type="checkbox" 
+        onChange={(e) => setChecked(e.target.checked)}/>
                 <span className="slider round"></span>
               </label>
         </div>
@@ -96,7 +100,8 @@ function Settings() {
         </div>
         <div className="col-4 text-end "> 
               <label className="switch">
-                <input type="checkbox" checked/>
+                <input type="checkbox" 
+        onChange={(e) => setChecked(e.target.checked)}/>
                 <span className="slider round"></span>
               </label>
         </div>
@@ -119,7 +124,8 @@ function Settings() {
         </div>
         <div className="col-4 text-end"> 
               <label className="switch">
-                <input type="checkbox" checked/>
+                <input type="checkbox" 
+        onChange={(e) => setChecked(e.target.checked)}/>
                 <span className="slider round"></span>
               </label>
         </div>

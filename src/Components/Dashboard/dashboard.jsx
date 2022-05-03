@@ -215,7 +215,9 @@ function Dashboard() {
 
 
   
-  <div class="row bottom-text w-100 m-0 p-0 max-auto text-white px-5">
+ 
+</section>
+<div class="row bottom-text w-100 m-0 p-0 max-auto text-white px-5">
     <div class="col text-left ps-5 ms-3"> <Link to="" > <p class="text-white"><u>Take Demo Exam</u></p></Link></div>
     <div class="col">
     <p class="pro-end ms-auto">  <Link to="/settings" replace class="text-white">
@@ -227,8 +229,6 @@ function Dashboard() {
 </Link>  </p>
 </div>
 </div>
-</section>
-
 
 
     </>

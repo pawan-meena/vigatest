@@ -47,21 +47,19 @@ function Ept() {
                     till then you can relax</p>
                  </div>
     </div>
-    <div class="container bottom-text text-white ">
-        <div class="row">
-            <div class="col text-left ps-5 ms-3"> <Link to="/dashboard"> <p class="text-white"><u>Take Demo Exam</u></p></Link></div>
-            <div class="col">
-            <p class="pro-end ms-auto">  <Link to="/settings" replace class="text-white">
+  
+</section><div class="row bottom-text w-100 m-0 p-0 max-auto text-white px-5">
+    <div class="col text-left ps-5 ms-3"> <Link to="/dashboard" > <p class="text-white"><u>Take Demo Exam</u></p></Link></div>
+    <div class="col">
+    <p class="pro-end ms-auto">  <Link to="/settings" replace class="text-white">
         <span class="name">Samuel Doe</span>
         <br/>
         <span class="span-n-check"> 18BIS1241</span>
         <img src={liveimg} class="img-p-check" alt="" srcset=""/>
   
 </Link>  </p>
-        </div>
-        </div>
-    </div>
-</section>
+</div>
+</div>
 </>
     )
 }  export default Ept;
