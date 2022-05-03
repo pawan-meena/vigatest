@@ -10,10 +10,10 @@ function App() {
     <BrowserRouter>
    <Routes>
      <Route path="/vigatest" element={<Ept />}/>
-     <Route path="exam" element={<Exam />}/>
-     <Route path="dashboard" element={<Dashboard />}/>
-     <Route path="check" element={<Check />}/>
-     <Route path="settings" element={<Settings />}/>
+     <Route path="/vigatest/exam" element={<Exam />}/>
+     <Route path="/vigatest/dashboard" element={<Dashboard />}/>
+     <Route path="/vigatest/check" element={<Check />}/>
+     <Route path="/vigatest/settings" element={<Settings />}/>
      </Routes>
  </BrowserRouter>
   );

@@ -49,11 +49,11 @@ function Ept() {
     </div>
     <div class="container bottom-text text-white ">
         <div class="row">
-            <div class="col text-left ps-5 ms-3"> <Link to="dashboard"> <p class="text-white"><u>Take Demo Exam</u></p></Link></div>
+            <div class="col text-left ps-5 ms-3"> <Link to="/dashboard"> <p class="text-white"><u>Take Demo Exam</u></p></Link></div>
             <div class="col">
 
 
-               <Link to="settings"> <p class="pro-end">
+               <Link to="/settings"> <p class="pro-end">
                 <span class="name">Samuel Doe</span>
                 <br/>
                 <span class="span-n"> 18BIS1241</span>
