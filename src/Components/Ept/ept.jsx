@@ -55,7 +55,7 @@ function Ept() {
         <span class="name">Samuel Doe</span>
         <br/>
         <span class="span-n-check"> 18BIS1241</span>
-        <img src={liveimg1} class="img-p-check" alt="" srcset=""/>
+        <img src={liveimg} class="img-p-check" alt="" srcset=""/>
   
 </Link>  </p>
         </div>
