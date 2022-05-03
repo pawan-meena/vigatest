@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/vigatest/static/css/main.8dd3069b.css",
+    "main.js": "/vigatest/static/js/main.99c18ae2.js",
+    "static/media/4.png": "/vigatest/static/media/4.f7368c4167afd7ae61fc.png",
+    "index.html": "/vigatest/index.html",
+    "main.8dd3069b.css.map": "/vigatest/static/css/main.8dd3069b.css.map",
+    "main.99c18ae2.js.map": "/vigatest/static/js/main.99c18ae2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8dd3069b.css",
+    "static/js/main.99c18ae2.js"
+  ]
+}

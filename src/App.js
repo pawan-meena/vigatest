@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch, Link } from "react-router-dom";
+import { Routes ,Route } from 'react-router-dom';
 import Check from "./Components/Check/check";
 import Exam from "./Components/Exam/exam";
 import Ept from "./Components/Ept/ept";
@@ -7,7 +7,7 @@ import Settings from "./Components/Settings/settings";
 import Dashboard from "./Components/Dashboard/dashboard";
 function App() {
   return (
-    <Switch>
+    <Routes>
     <Route exact path="/">
     <Ept /> 
     </Route>
@@ -23,7 +23,7 @@ function App() {
     <Route path="/settings">
     <Settings />
     </Route>
-   </Switch>
+   </Routes>
   );
 }
 export default  App;
