@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import liveimg from './../../assets/images/4.png'
+import liveimg from './../../assets/images/1.png'
 function Settings() {
     return (
     <> 
@@ -8,13 +8,13 @@ function Settings() {
         <div className="row justify-content-center align-items-center">
             <div className="col-8">
              <p className=" p-0 m-0 page-3-p">
-            <a href="index" className="btn shadow-none"> <span className="page-3-span-1">
+            <Link to="/dashboard" eplace className="btn shadow-none"> <span className="page-3-span-1">
                 <svg width="19" height="31" viewBox="0 0 19 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M17 2L3 15.5L17 29" stroke="white" stroke-width="4"/>
                     </svg>                    
-              </span></a> 
+              </span></Link> 
               <span className="page-3-span-2 px-4"> 
-                <img src="3.png" alt="" srcset=""/>
+                <img src={liveimg} alt="" srcset=""/>
               </span>
               <span className="h3 mx-2"> Samuel Doe</span>
              <span className="page-3-span-3">18BIS1241</span>

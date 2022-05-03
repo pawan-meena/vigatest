@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import liveimg from './../../assets/images/4.png'
+import liveimg1 from './../../assets/images/1.png'
 function Check() {
     return (
     <> 
@@ -7,11 +8,11 @@ function Check() {
     <div className="container py-4">
         <div className="row justify-content-center align-items-center">
             <div className="col-8 text-white page-3-p-4">
-            <a href="#" className="btn shadow-none"> <span className="page-3-span-1">
+            <Link to="/dashboard" replace className="btn shadow-none"> <span className="page-3-span-1">
                 <svg width="19" height="31" viewBox="0 0 19 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M17 2L3 15.5L17 29" stroke="white" stroke-width="4"/>
                     </svg>                    
-              </span></a> 
+              </span></Link> 
              Graduate Record Examination
             </div>
             <div className="col-4 text-white text-end">
@@ -59,23 +60,29 @@ function Check() {
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M31 18.9387C31 26.1184 25.1797 31.9387 18 31.9387C10.8203 31.9387 5 26.1184 5 18.9387C5 11.759 10.8203 5.93866 18 5.93866V0.93866C8.05887 0.93866 0 8.99753 0 18.9387C0 28.8798 8.05887 36.9387 18 36.9387C27.9411 36.9387 36 28.8798 36 18.9387H31Z" fill="white" fill-opacity="0.5"/>
                                     </svg>
                                     </span> Identity authentication</p><br/>
-                                <a href="exam" className="btn shadow-none w-100  rounded-0"><p className=" start-btn p-2 r-pp  "><span className="mx-2">
-                                        </span> Start Exam</p></a><br/>  
+                                <Link to="/exam" replace className="btn shadow-none w-100  rounded-0"><p className=" start-btn p-2 r-pp  "><span className="mx-2">
+                                        </span> Start Exam</p></Link><br/>  
         </div>
     </div>
 </div>
-<div className="row bottom-text w-100 m-0 p-0 max-auto text-white px-5">
-    <div className="col text-left ps-5 ms-3"> <a href=""> <p className="text-white"><u></u></p></a></div>
-    <div className="col">
-       <a href="" className=""> <p className="pro-end">
-        <span className="name">Samuel Doe</span>
+
+
+<div class="row bottom-text w-100 m-0 p-0 max-auto text-white px-5">
+    <div class="col text-left ps-5 ms-3"> <Link to="" > <p class="text-white"><u></u></p></Link></div>
+    <div class="col">
+       <Link to="/settings" replace class=""> <p class="pro-end">
+        <span class="name">Samuel Doe</span>
         <br/>
-        <span className="span-n"> 18BIS1241</span>
-        <img src="1.png" className="img-p" alt="" srcset=""/>
+        <span class="span-n-check"> 18BIS1241</span>
+        <img src={liveimg1} class="img-p-check" alt="" srcset=""/>
     </p>
-</a>
+</Link>
 </div>
 </div>
+
+
+
+
 </section>
     </>
     )

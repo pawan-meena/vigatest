@@ -571,3 +571,14 @@ color: yellow;
     margin-left: 20%;
     color:rgb(0, 0, 0);  
 }
+.img-p-check {
+    position: absolute;
+    right: 1rem;
+    top: -0.4rem;
+}.pro-end .span-n-check {
+    right: 6rem;
+    position: absolute;
+    text-align: right !important;
+    color: #FFFFFF80 !important;
+    top: 1.5rem;
+}
