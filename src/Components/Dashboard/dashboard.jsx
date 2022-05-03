@@ -218,13 +218,13 @@ function Dashboard() {
   <div class="row bottom-text w-100 m-0 p-0 max-auto text-white px-5">
     <div class="col text-left ps-5 ms-3"> <Link to="" > <p class="text-white"><u>Take Demo Exam</u></p></Link></div>
     <div class="col">
-       <Link to="/settings" replace class=""> <p class="pro-end">
+    <p class="pro-end ms-auto">  <Link to="/settings" replace class="text-white">
         <span class="name">Samuel Doe</span>
         <br/>
-        <span class="span-n"> 18BIS1241</span>
-        <img src={liveimg} class="img-p" alt="" srcset=""/>
-    </p>
-</Link>
+        <span class="span-n-check"> 18BIS1241</span>
+        <img src={liveimg1} class="img-p-check" alt="" srcset=""/>
+  
+</Link>  </p>
 </div>
 </div>
 </section>
